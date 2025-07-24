@@ -41,3 +41,17 @@ model = keras.Sequential([
     layers.Dense(64, activation='relu'),
     layers.Dense(10, activation='softmax')
 ])
+```
+## how to Run the project
+💡 Requirements: Python 3.8+, TensorFlow, NumPy, Matplotlib, Jupyter
+```Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
+```Install required packages:
+pip install -r requirements.txt
+```
+```Run the notebook
+jupyter notebook fashion_mnist_classification.ipynb
+
+```  
